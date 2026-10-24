@@ -7,3 +7,8 @@ const montantcahiers = prixcahier * quantitetecahier
 const montantstylos = prixstylo * quantitestylos
 const montanttotal = montantcahiers + montantcahiers
 
+console.log("====CAISSE=====")
+console.log('')
+console.log(`cahier : ${montantcahiers} FCFA`)
+console.log(`stylos : ${montantstylos} FCFA `)
+console.log(`Total : ${montanttotal} FCFA`)
